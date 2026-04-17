@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "QUAN",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^4.18.2",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.4.1",
+    "shadcn": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
